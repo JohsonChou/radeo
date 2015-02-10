@@ -21,6 +21,10 @@ class ChannelTableView: UITableViewController {
         self.tableView.tableFooterView = UIView()
     }
     
+    @IBAction func unwindToList(segue:UIStoryboardSegue) {
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

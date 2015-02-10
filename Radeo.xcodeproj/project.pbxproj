@@ -16,6 +16,8 @@
 		134F4DD91A86BB7600B54137 /* ChannelTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F4DD81A86BB7600B54137 /* ChannelTableView.swift */; };
 		134F4E0E1A86BC8700B54137 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134F4E0D1A86BC8700B54137 /* CoreData.framework */; };
 		134F4E141A86BD4300B54137 /* DataBaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 134F4E121A86BD4300B54137 /* DataBaseModel.xcdatamodeld */; };
+		13EC6D081A89FCD1000E82CB /* AddChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EC6D071A89FCD1000E82CB /* AddChannelViewController.swift */; };
+		13EC6D0A1A8A0283000E82CB /* ChannelPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EC6D091A8A0283000E82CB /* ChannelPack.swift */; };
 		13FFDEE01A86B6E50034E26B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FFDEDB1A86B6E50034E26B /* Bolts.framework */; };
 		13FFDEE11A86B6E50034E26B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FFDEDC1A86B6E50034E26B /* Parse.framework */; };
 		13FFDEE21A86B6E50034E26B /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FFDEDD1A86B6E50034E26B /* ParseCrashReporting.framework */; };
@@ -59,6 +61,8 @@
 		134F4DD81A86BB7600B54137 /* ChannelTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableView.swift; sourceTree = "<group>"; };
 		134F4E0D1A86BC8700B54137 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		134F4E131A86BD4300B54137 /* DataBaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataBaseModel.xcdatamodel; sourceTree = "<group>"; };
+		13EC6D071A89FCD1000E82CB /* AddChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChannelViewController.swift; sourceTree = "<group>"; };
+		13EC6D091A8A0283000E82CB /* ChannelPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelPack.swift; sourceTree = "<group>"; };
 		13FFDEDB1A86B6E50034E26B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = thirdparty/Bolts.framework; sourceTree = "<group>"; };
 		13FFDEDC1A86B6E50034E26B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = thirdparty/Parse.framework; sourceTree = "<group>"; };
 		13FFDEDD1A86B6E50034E26B /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = thirdparty/ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -136,11 +140,13 @@
 				130D444F1A86B69100AD0D06 /* Frameworks */,
 				130D442E1A86AE0A00AD0D06 /* AppDelegate.swift */,
 				130D44321A86AE0A00AD0D06 /* Main.storyboard */,
+				13EC6D071A89FCD1000E82CB /* AddChannelViewController.swift */,
 				134F4DD81A86BB7600B54137 /* ChannelTableView.swift */,
 				134F4DD61A86B97E00B54137 /* ChannelCell.swift */,
 				130D44351A86AE0A00AD0D06 /* Images.xcassets */,
 				130D44371A86AE0A00AD0D06 /* LaunchScreen.xib */,
 				134F4E121A86BD4300B54137 /* DataBaseModel.xcdatamodeld */,
+				13EC6D091A8A0283000E82CB /* ChannelPack.swift */,
 				130D442C1A86AE0A00AD0D06 /* Supporting Files */,
 				134F4DD31A86B81F00B54137 /* Radeo-Bridging-Header.h */,
 			);
@@ -297,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EC6D081A89FCD1000E82CB /* AddChannelViewController.swift in Sources */,
 				130D442F1A86AE0A00AD0D06 /* AppDelegate.swift in Sources */,
 				134F4DD91A86BB7600B54137 /* ChannelTableView.swift in Sources */,
 				134F4E141A86BD4300B54137 /* DataBaseModel.xcdatamodeld in Sources */,
+				13EC6D0A1A8A0283000E82CB /* ChannelPack.swift in Sources */,
 				134F4DD71A86B97E00B54137 /* ChannelCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
